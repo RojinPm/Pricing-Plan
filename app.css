@@ -1,0 +1,186 @@
+*{
+
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+
+}
+body{
+
+ min-height: 100vh;
+background-color: #60a9ff;
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: 'Open Sans', sans-serif;
+}
+.pricing-table{
+
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px 25px;
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    text-transform: uppercase;
+}
+.pricing-plan{
+
+
+ text-align: center;
+ padding: 25px 50px;
+ margin:10px;
+ border-bottom: none;
+    border-right: 1px solid #e1f1ff;
+    padding: 25px 50px;
+ 
+}
+
+.pricing-img{
+
+ max-width: 100%;
+ margin-bottom: 25px;
+
+}
+ul li{
+
+ list-style-type: none;
+
+}
+.pricing-header{
+
+ text-transform: uppercase;
+ color: #888;
+ font-weight: 600;
+ letter-spacing: 1px;
+}
+
+.pricing-features{
+ 
+    margin: 50px 0 25px;
+    color: #016ff9;
+  
+
+}
+.pricing-features .pricing-features-item{
+
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 12px;
+    line-height: 1.5;
+    padding: 15px 0;
+    border-top: 1px solid #e1f1ff;
+
+}
+.pricing-features-item{
+
+ 
+    
+        font-weight: 600;
+        letter-spacing: 1px;
+        font-size: 12px;
+        line-height: 1.5;
+        padding: 15px 0;
+        text-transform: uppercase;
+    
+}
+.pricing-price{
+
+
+    color: #016ff9;
+    display: block;
+    font-size: 32px;
+    font-weight: 700;
+
+}
+.pricing-button{
+
+    border: 1px solid #9dd1ff;
+    border-radius: 10px;
+    color: #348efe;
+    display: inline-block;
+    padding: 15px 35px;
+    text-decoration: none;
+    margin: 25px 0;
+    transition: background-color 200ms ease-in-out;
+    text-transform: uppercase;
+}
+.pricing-button:hover{
+
+background-color: #e8eff7;
+  
+ 
+}
+
+
+
+.is-featured{
+
+ background-color:#348efe;
+ color: #fff;
+
+}
+
+.is-featured:hover{
+
+    background-color:#52a0ff;
+    color: #fff;
+   
+
+
+}
+
+@media(max-width:700px){
+
+
+    .pricing-table{
+
+    
+        background-color: white;
+        border-radius: 10px;
+        padding: 15px 25px;
+        width: 100%;
+        max-width: 960px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        text-transform: uppercase;
+
+
+       }
+
+       .pricing-plan{
+
+
+        text-align: center;
+        padding: 25px 50px;
+        margin:10px;
+        border-bottom: none;
+        border-right: 1px solid #e1f1ff;
+  
+    
+        
+       }
+       .body{
+
+ 
+       background-color: #60a9ff;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       font-family: 'Open Sans', sans-serif;
+       }
+
+
+
+
+
+
+
+
+
+ 
+
+}
